@@ -14,7 +14,7 @@ int main(void)
     int value = 2+ rand() %100 +1;
     printf("Value: %d\n", value); 
     printf("Hi %s, I have chosen a number between 1 and 100 inclusive. Try and guess what it is.\n",name); 
-    printf("**make sure to enter the same guess again after typing it once so that you get a hint of how close you are to the secret number and to ensure oyur guess is valid.**\n");
+    printf("**make sure to enter the same guess again after typing it once so that you get a hint of how close you are to the secret number and to ensure your guess is valid.**\n");
     
     int guess = 1;
     
